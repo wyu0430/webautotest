@@ -1,0 +1,9 @@
+2020-06-29 15:29:00,894 login.py---> login 20: INFO ----> 登录
+2020-06-29 15:29:00,895 login.py---> input_username 20: INFO ----> 输入用户名
+2020-06-29 15:29:00,895 remote_connection.py---> _request 10: DEBUG ----> POST http://127.0.0.1:59250/session/d0b480d2f4c3d10167cff83ae1bb9e42/element {"using": "css selector", "value": "[name=\"username\"]"}
+2020-06-29 15:29:00,919 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:59250 "POST /session/d0b480d2f4c3d10167cff83ae1bb9e42/element HTTP/1.1" 404 1058
+2020-06-29 15:29:00,920 remote_connection.py---> _request 10: DEBUG ----> Finished Request
+2020-06-29 15:29:00,921 case2.py---> tearDown 20: INFO ----> 用例执行结束
+2020-06-29 15:29:00,922 remote_connection.py---> _request 10: DEBUG ----> DELETE http://127.0.0.1:59250/session/d0b480d2f4c3d10167cff83ae1bb9e42 {}
+2020-06-29 15:29:01,063 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:59250 "DELETE /session/d0b480d2f4c3d10167cff83ae1bb9e42 HTTP/1.1" 200 14
+2020-06-29 15:29:01,065 remote_connection.py---> _request 10: DEBUG ----> Finished Request

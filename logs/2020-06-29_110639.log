@@ -1,0 +1,22 @@
+2020-06-29 11:06:40,063 remote_connection.py---> _request 10: DEBUG ----> POST http://127.0.0.1:55556/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-06-29 11:06:40,064 connectionpool.py---> _new_conn 10: DEBUG ----> Starting new HTTP connection (1): 127.0.0.1:55556
+2020-06-29 11:06:43,464 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:55556 "POST /session HTTP/1.1" 200 721
+2020-06-29 11:06:43,464 remote_connection.py---> _request 10: DEBUG ----> Finished Request
+2020-06-29 11:06:43,465 case2.py---> test_input_username 20: INFO ----> 测试输入用户名
+2020-06-29 11:06:43,467 remote_connection.py---> _request 10: DEBUG ----> POST http://127.0.0.1:55556/session/5680da9db87c65e129f3cc8041eea55d/url {"url": "http://192.168.0.134:9000/ECShop_V2.7.2_UTF8_Release0604/upload66/user.php"}
+2020-06-29 11:06:44,133 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:55556 "POST /session/5680da9db87c65e129f3cc8041eea55d/url HTTP/1.1" 200 14
+2020-06-29 11:06:44,133 remote_connection.py---> _request 10: DEBUG ----> Finished Request
+2020-06-29 11:06:44,136 login.py---> input_username 20: INFO ----> 输入用户名
+2020-06-29 11:06:44,137 remote_connection.py---> _request 10: DEBUG ----> POST http://127.0.0.1:55556/session/5680da9db87c65e129f3cc8041eea55d/element {"using": "css selector", "value": "[name=\"username\"]"}
+2020-06-29 11:06:44,152 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:55556 "POST /session/5680da9db87c65e129f3cc8041eea55d/element HTTP/1.1" 200 88
+2020-06-29 11:06:44,152 remote_connection.py---> _request 10: DEBUG ----> Finished Request
+2020-06-29 11:06:44,153 remote_connection.py---> _request 10: DEBUG ----> POST http://127.0.0.1:55556/session/5680da9db87c65e129f3cc8041eea55d/element/5d63a35a-fff8-4b45-9e38-aad9848cff78/value {"text": "test!@#$%^&&\u4e2a\u7231\u56fd", "value": ["t", "e", "s", "t", "!", "@", "#", "$", "%", "^", "&", "&", "\u4e2a", "\u7231", "\u56fd"], "id": "5d63a35a-fff8-4b45-9e38-aad9848cff78"}
+2020-06-29 11:06:44,324 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:55556 "POST /session/5680da9db87c65e129f3cc8041eea55d/element/5d63a35a-fff8-4b45-9e38-aad9848cff78/value HTTP/1.1" 200 14
+2020-06-29 11:06:44,324 remote_connection.py---> _request 10: DEBUG ----> Finished Request
+2020-06-29 11:06:44,324 remote_connection.py---> _request 10: DEBUG ----> GET http://127.0.0.1:55556/session/5680da9db87c65e129f3cc8041eea55d/screenshot {}
+2020-06-29 11:06:44,630 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:55556 "GET /session/5680da9db87c65e129f3cc8041eea55d/screenshot HTTP/1.1" 200 69368
+2020-06-29 11:06:44,630 remote_connection.py---> _request 10: DEBUG ----> Finished Request
+2020-06-29 11:06:44,631 case2.py---> tearDown 20: INFO ----> 用例执行结束
+2020-06-29 11:06:44,632 remote_connection.py---> _request 10: DEBUG ----> DELETE http://127.0.0.1:55556/session/5680da9db87c65e129f3cc8041eea55d {}
+2020-06-29 11:06:44,713 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:55556 "DELETE /session/5680da9db87c65e129f3cc8041eea55d HTTP/1.1" 200 14
+2020-06-29 11:06:44,713 remote_connection.py---> _request 10: DEBUG ----> Finished Request

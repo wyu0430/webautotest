@@ -1,0 +1,50 @@
+2020-06-29 15:34:15,579 remote_connection.py---> _request 10: DEBUG ----> POST http://127.0.0.1:59761/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-06-29 15:34:15,580 connectionpool.py---> _new_conn 10: DEBUG ----> Starting new HTTP connection (1): 127.0.0.1:59761
+2020-06-29 15:34:18,335 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:59761 "POST /session HTTP/1.1" 200 720
+2020-06-29 15:34:18,335 remote_connection.py---> _request 10: DEBUG ----> Finished Request
+2020-06-29 15:34:18,345 case2.py---> test_loginsuccess 20: INFO ----> 测试登录成功
+2020-06-29 15:34:18,345 remote_connection.py---> _request 10: DEBUG ----> POST http://127.0.0.1:59761/session/f8b6135fb629a30aea35ecfca1f79a5b/url {"url": "http://192.168.0.134:9000/ECShop_V2.7.2_UTF8_Release0604/upload66/user.php"}
+2020-06-29 15:34:18,652 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:59761 "POST /session/f8b6135fb629a30aea35ecfca1f79a5b/url HTTP/1.1" 200 14
+2020-06-29 15:34:18,652 remote_connection.py---> _request 10: DEBUG ----> Finished Request
+2020-06-29 15:34:18,654 login.py---> login 20: INFO ----> 登录
+2020-06-29 15:34:18,655 login.py---> input_username 20: INFO ----> 输入用户名
+2020-06-29 15:34:18,655 remote_connection.py---> _request 10: DEBUG ----> POST http://127.0.0.1:59761/session/f8b6135fb629a30aea35ecfca1f79a5b/element {"using": "css selector", "value": "[name=\"username\"]"}
+2020-06-29 15:34:18,666 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:59761 "POST /session/f8b6135fb629a30aea35ecfca1f79a5b/element HTTP/1.1" 200 88
+2020-06-29 15:34:18,667 remote_connection.py---> _request 10: DEBUG ----> Finished Request
+2020-06-29 15:34:18,667 remote_connection.py---> _request 10: DEBUG ----> POST http://127.0.0.1:59761/session/f8b6135fb629a30aea35ecfca1f79a5b/element/3c96662c-bdf0-4b37-b06b-be58f72896e0/value {"text": "test13", "value": ["t", "e", "s", "t", "1", "3"], "id": "3c96662c-bdf0-4b37-b06b-be58f72896e0"}
+2020-06-29 15:34:18,763 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:59761 "POST /session/f8b6135fb629a30aea35ecfca1f79a5b/element/3c96662c-bdf0-4b37-b06b-be58f72896e0/value HTTP/1.1" 200 14
+2020-06-29 15:34:18,764 remote_connection.py---> _request 10: DEBUG ----> Finished Request
+2020-06-29 15:34:18,764 remote_connection.py---> _request 10: DEBUG ----> GET http://127.0.0.1:59761/session/f8b6135fb629a30aea35ecfca1f79a5b/screenshot {}
+2020-06-29 15:34:19,112 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:59761 "GET /session/f8b6135fb629a30aea35ecfca1f79a5b/screenshot HTTP/1.1" 200 66776
+2020-06-29 15:34:19,113 remote_connection.py---> _request 10: DEBUG ----> Finished Request
+2020-06-29 15:34:19,114 login.py---> input_password 20: INFO ----> 输入密码
+2020-06-29 15:34:19,115 remote_connection.py---> _request 10: DEBUG ----> POST http://127.0.0.1:59761/session/f8b6135fb629a30aea35ecfca1f79a5b/element {"using": "css selector", "value": "[name=\"password\"]"}
+2020-06-29 15:34:19,127 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:59761 "POST /session/f8b6135fb629a30aea35ecfca1f79a5b/element HTTP/1.1" 200 88
+2020-06-29 15:34:19,127 remote_connection.py---> _request 10: DEBUG ----> Finished Request
+2020-06-29 15:34:19,128 remote_connection.py---> _request 10: DEBUG ----> POST http://127.0.0.1:59761/session/f8b6135fb629a30aea35ecfca1f79a5b/element/35dbc482-b4ca-4cc7-9540-83e5d56d4558/value {"text": "123456", "value": ["1", "2", "3", "4", "5", "6"], "id": "35dbc482-b4ca-4cc7-9540-83e5d56d4558"}
+2020-06-29 15:34:19,212 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:59761 "POST /session/f8b6135fb629a30aea35ecfca1f79a5b/element/35dbc482-b4ca-4cc7-9540-83e5d56d4558/value HTTP/1.1" 200 14
+2020-06-29 15:34:19,212 remote_connection.py---> _request 10: DEBUG ----> Finished Request
+2020-06-29 15:34:19,212 remote_connection.py---> _request 10: DEBUG ----> GET http://127.0.0.1:59761/session/f8b6135fb629a30aea35ecfca1f79a5b/screenshot {}
+2020-06-29 15:34:19,486 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:59761 "GET /session/f8b6135fb629a30aea35ecfca1f79a5b/screenshot HTTP/1.1" 200 67036
+2020-06-29 15:34:19,487 remote_connection.py---> _request 10: DEBUG ----> Finished Request
+2020-06-29 15:34:19,488 remote_connection.py---> _request 10: DEBUG ----> POST http://127.0.0.1:59761/session/f8b6135fb629a30aea35ecfca1f79a5b/element {"using": "css selector", "value": "[name=\"submit\"]"}
+2020-06-29 15:34:19,499 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:59761 "POST /session/f8b6135fb629a30aea35ecfca1f79a5b/element HTTP/1.1" 200 88
+2020-06-29 15:34:19,499 remote_connection.py---> _request 10: DEBUG ----> Finished Request
+2020-06-29 15:34:19,499 remote_connection.py---> _request 10: DEBUG ----> POST http://127.0.0.1:59761/session/f8b6135fb629a30aea35ecfca1f79a5b/element/aabea717-23d0-4b87-9602-a7d3ff23acfe/click {"id": "aabea717-23d0-4b87-9602-a7d3ff23acfe"}
+2020-06-29 15:34:19,702 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:59761 "POST /session/f8b6135fb629a30aea35ecfca1f79a5b/element/aabea717-23d0-4b87-9602-a7d3ff23acfe/click HTTP/1.1" 200 14
+2020-06-29 15:34:19,703 remote_connection.py---> _request 10: DEBUG ----> Finished Request
+2020-06-29 15:34:19,703 remote_connection.py---> _request 10: DEBUG ----> DELETE http://127.0.0.1:59761/session/f8b6135fb629a30aea35ecfca1f79a5b {}
+2020-06-29 15:34:19,761 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:59761 "DELETE /session/f8b6135fb629a30aea35ecfca1f79a5b HTTP/1.1" 200 14
+2020-06-29 15:34:19,762 remote_connection.py---> _request 10: DEBUG ----> Finished Request
+2020-06-29 15:34:21,861 case2.py---> tearDown 20: INFO ----> 用例执行结束
+2020-06-29 15:34:21,861 remote_connection.py---> _request 10: DEBUG ----> DELETE http://127.0.0.1:59761/session/f8b6135fb629a30aea35ecfca1f79a5b {}
+2020-06-29 15:34:21,862 connectionpool.py---> _get_conn 10: DEBUG ----> Resetting dropped connection: 127.0.0.1
+2020-06-29 15:34:23,864 retry.py---> increment 10: DEBUG ----> Incremented Retry for (url='/session/f8b6135fb629a30aea35ecfca1f79a5b'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-06-29 15:34:23,864 connectionpool.py---> urlopen 30: WARNING ----> Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FCABF8D908>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/f8b6135fb629a30aea35ecfca1f79a5b
+2020-06-29 15:34:23,874 connectionpool.py---> _new_conn 10: DEBUG ----> Starting new HTTP connection (2): 127.0.0.1:59761
+2020-06-29 15:34:25,877 retry.py---> increment 10: DEBUG ----> Incremented Retry for (url='/session/f8b6135fb629a30aea35ecfca1f79a5b'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-06-29 15:34:25,877 connectionpool.py---> urlopen 30: WARNING ----> Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FCABF92848>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/f8b6135fb629a30aea35ecfca1f79a5b
+2020-06-29 15:34:25,878 connectionpool.py---> _new_conn 10: DEBUG ----> Starting new HTTP connection (3): 127.0.0.1:59761
+2020-06-29 15:34:27,883 retry.py---> increment 10: DEBUG ----> Incremented Retry for (url='/session/f8b6135fb629a30aea35ecfca1f79a5b'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2020-06-29 15:34:27,883 connectionpool.py---> urlopen 30: WARNING ----> Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FCABF927C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/f8b6135fb629a30aea35ecfca1f79a5b
+2020-06-29 15:34:27,884 connectionpool.py---> _new_conn 10: DEBUG ----> Starting new HTTP connection (4): 127.0.0.1:59761

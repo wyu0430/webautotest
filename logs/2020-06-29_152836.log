@@ -1,0 +1,29 @@
+2020-06-29 15:28:36,365 login.py---> input_username 20: INFO ----> 输入用户名
+2020-06-29 15:28:36,365 remote_connection.py---> _request 10: DEBUG ----> POST http://127.0.0.1:59179/session/0f4cbaee38f86835c3c2a665f42b836b/element {"using": "css selector", "value": "[name=\"username\"]"}
+2020-06-29 15:28:36,382 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:59179 "POST /session/0f4cbaee38f86835c3c2a665f42b836b/element HTTP/1.1" 404 1058
+2020-06-29 15:28:36,382 remote_connection.py---> _request 10: DEBUG ----> Finished Request
+2020-06-29 15:28:36,383 case2.py---> tearDown 20: INFO ----> 用例执行结束
+2020-06-29 15:28:36,383 remote_connection.py---> _request 10: DEBUG ----> DELETE http://127.0.0.1:59179/session/0f4cbaee38f86835c3c2a665f42b836b {}
+2020-06-29 15:28:36,476 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:59179 "DELETE /session/0f4cbaee38f86835c3c2a665f42b836b HTTP/1.1" 200 14
+2020-06-29 15:28:36,477 remote_connection.py---> _request 10: DEBUG ----> Finished Request
+2020-06-29 15:28:39,206 remote_connection.py---> _request 10: DEBUG ----> POST http://127.0.0.1:59209/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-06-29 15:28:39,207 connectionpool.py---> _new_conn 10: DEBUG ----> Starting new HTTP connection (1): 127.0.0.1:59209
+2020-06-29 15:28:52,016 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:59209 "POST /session HTTP/1.1" 500 1095
+2020-06-29 15:28:52,017 remote_connection.py---> _request 10: DEBUG ----> Finished Request
+2020-06-29 15:28:54,763 remote_connection.py---> _request 10: DEBUG ----> POST http://127.0.0.1:59250/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-06-29 15:28:54,765 connectionpool.py---> _new_conn 10: DEBUG ----> Starting new HTTP connection (1): 127.0.0.1:59250
+2020-06-29 15:28:58,133 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:59250 "POST /session HTTP/1.1" 200 719
+2020-06-29 15:28:58,134 remote_connection.py---> _request 10: DEBUG ----> Finished Request
+2020-06-29 15:28:58,134 case2.py---> test_loginsuccess 20: INFO ----> 测试登录成功
+2020-06-29 15:28:58,134 remote_connection.py---> _request 10: DEBUG ----> POST http://127.0.0.1:59250/session/d0b480d2f4c3d10167cff83ae1bb9e42/url {"url": "http://192.168.0.134:9000/ECShop_V2.7.2_UTF8_Release0604/upload66/user.php"}
+2020-06-29 15:29:00,888 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:59250 "POST /session/d0b480d2f4c3d10167cff83ae1bb9e42/url HTTP/1.1" 200 14
+2020-06-29 15:29:00,890 remote_connection.py---> _request 10: DEBUG ----> Finished Request
+2020-06-29 15:29:00,894 login.py---> login 20: INFO ----> 登录
+2020-06-29 15:29:00,895 login.py---> input_username 20: INFO ----> 输入用户名
+2020-06-29 15:29:00,895 remote_connection.py---> _request 10: DEBUG ----> POST http://127.0.0.1:59250/session/d0b480d2f4c3d10167cff83ae1bb9e42/element {"using": "css selector", "value": "[name=\"username\"]"}
+2020-06-29 15:29:00,919 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:59250 "POST /session/d0b480d2f4c3d10167cff83ae1bb9e42/element HTTP/1.1" 404 1058
+2020-06-29 15:29:00,920 remote_connection.py---> _request 10: DEBUG ----> Finished Request
+2020-06-29 15:29:00,921 case2.py---> tearDown 20: INFO ----> 用例执行结束
+2020-06-29 15:29:00,922 remote_connection.py---> _request 10: DEBUG ----> DELETE http://127.0.0.1:59250/session/d0b480d2f4c3d10167cff83ae1bb9e42 {}
+2020-06-29 15:29:01,063 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:59250 "DELETE /session/d0b480d2f4c3d10167cff83ae1bb9e42 HTTP/1.1" 200 14
+2020-06-29 15:29:01,065 remote_connection.py---> _request 10: DEBUG ----> Finished Request

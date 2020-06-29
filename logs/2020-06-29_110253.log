@@ -1,0 +1,13 @@
+2020-06-29 11:02:53,744 login.py---> input_username 10: DEBUG ----> 输入用户名
+2020-06-29 11:02:53,747 remote_connection.py---> _request 10: DEBUG ----> POST http://127.0.0.1:55280/session/ebfaae1bb06fb181ecd83382af7e9f53/element {"using": "css selector", "value": "[name=\"username\"]"}
+2020-06-29 11:02:53,772 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:55280 "POST /session/ebfaae1bb06fb181ecd83382af7e9f53/element HTTP/1.1" 200 88
+2020-06-29 11:02:53,772 remote_connection.py---> _request 10: DEBUG ----> Finished Request
+2020-06-29 11:02:53,772 remote_connection.py---> _request 10: DEBUG ----> POST http://127.0.0.1:55280/session/ebfaae1bb06fb181ecd83382af7e9f53/element/e0425702-22ce-4071-887f-ceb27d17062f/value {"text": "test!@#$%^&&\u4e2a\u7231\u56fd", "value": ["t", "e", "s", "t", "!", "@", "#", "$", "%", "^", "&", "&", "\u4e2a", "\u7231", "\u56fd"], "id": "e0425702-22ce-4071-887f-ceb27d17062f"}
+2020-06-29 11:02:54,067 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:55280 "POST /session/ebfaae1bb06fb181ecd83382af7e9f53/element/e0425702-22ce-4071-887f-ceb27d17062f/value HTTP/1.1" 200 14
+2020-06-29 11:02:54,068 remote_connection.py---> _request 10: DEBUG ----> Finished Request
+2020-06-29 11:02:54,068 remote_connection.py---> _request 10: DEBUG ----> GET http://127.0.0.1:55280/session/ebfaae1bb06fb181ecd83382af7e9f53/screenshot {}
+2020-06-29 11:02:55,171 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:55280 "GET /session/ebfaae1bb06fb181ecd83382af7e9f53/screenshot HTTP/1.1" 200 69368
+2020-06-29 11:02:55,172 remote_connection.py---> _request 10: DEBUG ----> Finished Request
+2020-06-29 11:02:55,174 remote_connection.py---> _request 10: DEBUG ----> DELETE http://127.0.0.1:55280/session/ebfaae1bb06fb181ecd83382af7e9f53 {}
+2020-06-29 11:02:55,276 connectionpool.py---> _make_request 10: DEBUG ----> http://127.0.0.1:55280 "DELETE /session/ebfaae1bb06fb181ecd83382af7e9f53 HTTP/1.1" 200 14
+2020-06-29 11:02:55,277 remote_connection.py---> _request 10: DEBUG ----> Finished Request
